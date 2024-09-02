@@ -1,0 +1,32 @@
+{
+    "model": "page",
+    "srcType": "contentful",
+    "srcProjectId": "4fcac502gor4",
+    "presets": [
+        {
+            "label": "Test Preset",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "test"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Home Page",
+                "slug": "/",
+                "sections": [
+                    {
+                        "$$ref": "1waD7wlBFDmDTKcI18NXO0",
+                        "$$type": "hero"
+                    },
+                    {
+                        "$$ref": "55B39LpWGFDQvt4kYYif6g",
+                        "$$type": "stats"
+                    }
+                ]
+            },
+            "thumbnail": "images/page-test-preset-3262.png"
+        }
+    ]
+}
